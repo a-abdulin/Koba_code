@@ -25,3 +25,9 @@ def get_by_skill(skill_name, candidates_list):
         if skill_name.lower() in item.skills.lower():
             candidates_by_skill.append(item)
     return candidates_by_skill
+
+
+# file_data = load_candidates()
+# candidates_list = get_all(file_data)
+#
+# print (candidates_list[1].name)
